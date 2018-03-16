@@ -9,7 +9,7 @@ function nameToAttributes (drivers) {
   return drivers.map(function (driver) {
     const splitName=driver.split(" ");
     return {firstName: splitName[0], lastName: splitName[1]};
-     });
+  });
 }
 
 

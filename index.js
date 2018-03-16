@@ -15,5 +15,7 @@ function nameToAttributes (drivers) {
 
 function attributesToPhrase(drivers){
   //converts to list saying the name and where each individual is from
-return drivers.map(function (driver) { return `${driver.name} is from ${driver.hometown}`;});
+  return drivers.map(function (driver) {
+    return `${driver.name} is from ${driver.hometown}`;
+  });
 }
